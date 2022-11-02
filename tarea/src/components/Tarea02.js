@@ -16,6 +16,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Componente a insertar:
 import NotFound from "./common/404";
 
+
 const Tarea02 = () => {
     return (
         <>
@@ -26,11 +27,7 @@ const Tarea02 = () => {
                     <Route path="sign-up" element={<SignUpFormMPA />}></Route>
                     <Route path="products" element={<ProductsMPA />}></Route>
                     <Route path="login" element={<LoginFormMPA />}></Route>
-                    {/* 
-                      *
-                        Escriba su código aquí! 
-                      *
-                      */}
+                    <Route path="NotFound" element={<NotFound/>}></Route>
                 </Routes>
             </BrowserRouter>
         </>

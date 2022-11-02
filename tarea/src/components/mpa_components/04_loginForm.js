@@ -1,6 +1,6 @@
 import Browser from "../common/browser";
 
-const LoginFormMPA=()=>{
+const NotFound=()=>{
     return(
         <div>
             <h1>
@@ -11,4 +11,4 @@ const LoginFormMPA=()=>{
     )
 }
 
-export default LoginFormMPA;
+export default NotFound;

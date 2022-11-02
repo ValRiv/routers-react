@@ -29,11 +29,10 @@ const Tarea01 = () => {
             <BrowserRouter>
                 <Routes path="/" element={<App />}>
                     <Route path="index" element={<IndexMPA />}></Route>
-                    {/* 
-                      *
-                        Escriba su código aquí! 
-                      *
-                      */}
+                    <Route path="sign-up" element={<SignUpFormMPA/>}></Route>
+                    <Route path="products" element={<ProductsMPA/>}></Route>
+                    <Route path="login" element={<LoginFormMPA/>}></Route>
+                    
                 </Routes>
             </BrowserRouter>
         </>

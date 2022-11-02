@@ -27,11 +27,7 @@ const Tarea04 = (props) => {
                     <Route path="sign-up" element={<SignUpFormMPA />}></Route>
                     <Route path="products" element={<ProductsMPA />}></Route>
                     <Route path="login" element={authorized ? <IndexMPA /> : <LoginFormMPA /> }></Route>
-                    {/* 
-                      *
-                        Escriba su código aquí! 
-                      *
-                      */}
+                    <Route path="NotFound" element={<NotFound/>}></Route>
                 </Routes>
                 <div> Estado: {authorized ? "✅ Autorizado" : "❌ No autorizado" }</div>
             </BrowserRouter>

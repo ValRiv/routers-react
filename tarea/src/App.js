@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <Tarea01/> */}
-        {/* <Tarea02 /> */}
+        { /*<Tarea01/>*/ }
+        { /*<Tarea02 /> */}
         {/* <Tarea03 /> */}
-        <button onClick={()=>setAuthorized(!authorized)}>{authorized ? "Desautorizame" : "Autorizame"}</button>
-        <Tarea04 authorized={authorized}/>
+        {<button onClick={()=>setAuthorized(!authorized)}>{authorized ? "Desautorizame" : "Autorizame"}</button>}
+       {<Tarea04 authorized={authorized}/>}
       </header>
     </div>
   );
